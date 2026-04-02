@@ -1,0 +1,194 @@
+@media print {
+    body {
+        background: none;
+        -webkit-print-color-adjust: exact; /* Mantém o fundo preto e o laranja */
+    }
+    .container {
+        margin: 0;
+        border: none; /* Opcional: remove a borda preta externa se não quiser que ela apareça no papel */
+    }
+    @page {
+        margin: 0;
+        size: auto;
+    }
+}
+div.conteudo_combos_refri, .conteudo_refri_broto, .logo, .conteudo_pizza{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.titullo_pizza, .titulo_refri_broto, .titulo_combos_refri_broto, .observação{
+background-color: rgb(238, 131, 0);
+color: white;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 2px; 
+text-transform: uppercase;  
+}
+.conteudo_bebidas{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content:space-between;
+    height: 100px;
+    padding: 20px;
+
+
+}
+.conteudo_pizza{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content:space-between;
+    height: 100px;
+    padding: 20px;
+
+
+}
+.titullo_pizza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%; 
+    border-bottom: 2px solid black; /* Mantém apenas a linha de baixo para separar do resto */
+    box-sizing: border-box;
+}
+.conteudo_combos_refri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%; 
+    border-bottom: 2px solid black; /* Mantém apenas a linha de baixo para separar do resto */
+    box-sizing: border-box;
+    padding: px;
+}
+.titulo_refri_broto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%; 
+    border-bottom: 2px solid black; /* Mantém apenas a linha de baixo para separar do resto */
+    box-sizing: border-box;
+}    
+.conteudo_refri_broto{
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: auto;  
+    width: 100%; 
+    border-bottom: 2px solid black; /* Mantém apenas a linha de baixo para separar do resto */
+    box-sizing: border-box;
+}
+.descrição_massas{}
+p{
+    text-transform: ;
+    color:rgb(238, 131, 0) ;
+    font-size: 40px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* ADICIONE ESTAS LINHAS: */
+    max-width: 800px;  /* Limita a largura para o texto ser obrigado a quebrar */
+    margin: 20px auto; /* O 'auto' centraliza o bloco do parágrafo na tela */
+}
+.texto_esquerda{
+    padding: 0;
+    margin: 0;
+}
+.texto_direita{
+    padding: 0;
+    margin: 0;
+}
+.titulo_combos_refri_broto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%; 
+    border-bottom: 2px solid black; /* Mantém apenas a linha de baixo para separar do resto */
+    box-sizing: border-box;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%; 
+    border-bottom: 2px solid black; /* Mantém apenas a linha de baixo para separar do resto */
+    box-sizing: border-box;
+}
+
+    
+    body{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+
+    }
+    .container{
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+        height: 1754px;
+        width: 1240px;
+        margin: 10px;
+
+    }
+    h1{
+        text-align: center;
+        margin: 0;
+    }
+    pre{
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+
+    }
+    .pre_pizza{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .observação{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 190px;
+    }
+    #observação_texto{
+        text-align: center;
+    }
+#logo_bella{
+    width: 100px;
+    height: px;
+}
+#bebida_pre{
+    letter-spacing: 3px; /* Aumenta o espaço entre as letras */
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+
+    
+}
